@@ -1,3 +1,7 @@
+*{
+	font-family: 'DejaVu Sans','Arial';
+	color:#36291E;
+	}
 body {
 	background-color: #FFF3E7;
 	text-align:center; 
@@ -35,6 +39,7 @@ body {
 	height: 100%;
 	}
 #tresc{
+	position: relative;
 	background-color:#FFF6D0;
 	float: left;
 	margin-top:4px;
@@ -62,20 +67,16 @@ h1{
 	margin-bottom:5px;
 	}
 h3:first-child{
-	font-family: 'DejaVu Sans','Arial' ;
+	font-family:'DejaVu Sans' ;
 	text-align: center;
-	color: #36291E;
-	margin-top:10px;
 	margin-bottom:10px;
 	}
 h3{
 	font-family: 'Champagne & Limousines','DejaVu Sans Light' ;
 	font-weight: bold;
-	color: #36291E;
-	margin-top:5px;
+	margin:8px 0px;
 	margin-left:40px;
-	margin-bottom:9px;
-	text-align: left;
+
 	}
 h4{
 	font-family: 'Champagne & Limousines','Arial' ;
@@ -87,10 +88,8 @@ h4{
 	font-style: italic;
 	}
 p{
-	margin:7px 20px;
-	font-family: 'DejaVu Sans','Arial';
-	color:#36291E;
 	font-size: 12px;
+	margin:7px 20px;
 	text-indent:15px;
 	}
 #podpis{
@@ -98,8 +97,8 @@ p{
 	font-weight: bold;
 	}
 .czcionka1{
+	font-style: italic;
 	font-size: 10px;
-	font-family: 'DejaVu Sans';
 	color:#FFF6D0;
 	}
 ul{
@@ -125,13 +124,13 @@ li{
 	border-radius:10px;
 	}
 .naglowki{
-	font-family: 'DejaVu Sans';
 	font-weight: bold;
 	color:#FFF6D0;
 	text-align: left;
-	margin-bottom: 1px;
+	margin-bottom: 2px;
 	font-size:15px; 
 	background-color:#4F2714;
+	padding-left:6px;
 	}
 span{
 	font-weight: bold;
@@ -140,17 +139,25 @@ span{
 .bok{
 	text-indent:0px;
 	}
+	
 img{
 	height:85px;
 	width: 85px;
-	margin-right: 5px;
+	margin-right:5px;
 	margin-bottom:5px;
+	}
+p>img{
+	float:right;
+	margin:5px;
+	height:160px;
+	width: 275px;
 	}
 #gal{padding-left:10px;
 	padding-top:9px;
 	padding-bottom:2px;
 	}	
-hr{width:85%;
+hr{
+	width:85%;
 	color:#4F2714;
 	align:center;
 	border:0;
@@ -163,10 +170,11 @@ a:link{
 	mragin-right:8px;
 	margin-top:0px;
 	font-size:12px;
-	font-family: 'DejaVu Sans','Arial';
 	}
-#wciecie{text-indent:-20px;
-}	
+#wciecie{
+	text-indent:-20px;
+	}
+
 a:visited{
 	color:#36291E
 	}
