@@ -6,6 +6,16 @@ body {
 	background-color: #FFF3E7;
 	text-align:center; 
 	}
+@font-face{ 
+	font-family: 'champagne';
+	src:local('Champagne & Limousines'),
+	url('http://www.mediafont.com/storage/contents/12491/Champagne & Limousines.ttf') format('truetype');
+		}
+@font-face{ 
+	font-family: 'DejaVu Sans';
+	src:local('DejaVu Sans'),
+	url(/DejaVuSans.ttf) format('truetype');
+		}
 #cialo{
 	width: 950px;
 	text-align: left;
@@ -14,7 +24,7 @@ body {
 #logo {
 	position:relative;
 	background-color:#824121; 
-    height: 130px;
+    height: 140px;
     width: 950px;
     border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -30,6 +40,9 @@ body {
 	width:100%;
 	padding-bottom:8px;
 	background-color:#4F2714;
+	}
+#czcionka1{
+	color: #FFF6D0;
 	}
 #menu{
 	float: left;
@@ -51,15 +64,24 @@ body {
 	}
 #stopka{
 	position: relative;
-	background-color:#824121  /**7F5E3B #7F7162**/;
+	background-color:#824121;
 	width: 950px;
 	height: 50px;
 	clear: both;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
+	
+	}
+#stopa{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-style: italic;
+	font-size: 10px;
+	text-align: right;
 	}
 h1{
-	font-family: 'Champagne & Limousines','DejaVu Sans Light' ;
+	font-family: 'champagne','Arial' ;
 	font-weight: bold;
 	text-align: center;
 	color: #FFF6D0;
@@ -69,17 +91,17 @@ h1{
 h3:first-child{
 	font-family:'DejaVu Sans' ;
 	text-align: center;
-	margin-bottom:10px;
+	margin-bottom:15px;
 	}
 h3{
-	font-family: 'Champagne & Limousines','DejaVu Sans Light' ;
+	font-family: 'champagne','DejaVu Sans Light' ;
 	font-weight: bold;
 	margin:8px 0px;
 	margin-left:40px;
 
 	}
 h4{
-	font-family: 'Champagne & Limousines','Arial' ;
+	font-family: 'champagne','Arial' ;
 	font-weight: bold;
 	text-align: right;
 	color: #FFF6D0;
@@ -96,11 +118,7 @@ p{
 	text-align: right;
 	font-weight: bold;
 	}
-.czcionka1{
-	font-style: italic;
-	font-size: 10px;
-	color:#FFF6D0;
-	}
+
 ul{
 	margin-top: 7px;
 	}
@@ -119,8 +137,8 @@ li{
 #obraz_logo{
 	position: absolute;
 	left:10px;
-	width: 230px;
-	height: 116px;
+	width: 234px;
+	height: 124px;
 	border-radius:10px;
 	}
 .naglowki{
